@@ -12,9 +12,7 @@ namespace Lesson3.Models
         {
             Size = size;
             Color = color;
-        }
-
-        
+        }      
        
     }
 }

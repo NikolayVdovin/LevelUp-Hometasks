@@ -6,8 +6,8 @@ namespace Lesson3
     {
         static void Main(string[] args)
         {
-            Cap cap = new Cap("Adidias", 3, 46, "Red", 17);          
-            Cap cap2 = new Cap("Adidias", 1, 46, "Green", 17);
+            Cap cap = new Cap("Nike", 3, 46, "Red", 17);          
+            Cap cap2 = new Cap("Nike", 1, 46, "Green", 17);
             Vodka vodka = new Vodka("Столичная", 3, 0.5f ,true, 40);
             
             Console.WriteLine(cap.Id);
