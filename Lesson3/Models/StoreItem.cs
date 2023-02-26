@@ -7,8 +7,8 @@ namespace Lesson3.Models
     {
         private static int _countId;
         public int Id { get; private set; }
-        public string Name { get; set; }
-        public int Quantity { get; set; }
+        public string Name { get; private set; }
+        public int Quantity { get; private set; }
 
         public StoreItem( string name, int quantity)
         { 
